@@ -21,6 +21,6 @@ exports.create = (req,res) =>{
                        if(err)
                         res.send(err);
                         
-                       res.send(JSON.stringify(cust));
+                       res.JSON(cust);
         });
     }
